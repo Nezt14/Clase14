@@ -1,3 +1,6 @@
 class User{
-    constructor(){}
+    constructor(public name:string){}
+    public addUser(name:string, email:string, password:string):void{
+        console.log()
+    }
 }
